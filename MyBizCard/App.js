@@ -1,13 +1,17 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Button, Image } from 'react-native';
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-        <Text>Changes you make will automatically reload.</Text>
-        <Text>Shake your phone to open the developer menu.</Text>
+        <Text style={styles.baseText}>
+        <Image 
+          source={{uri: "https://cdn.iconscout.com/public/images/icon/premium/png-512/business-card-id-identification-3e87bf4e0dc8e389-512x512.png"}}
+          style={{width: 100, height: 100}} 
+        />
+        <Text style={styles.titleText}>Sharing your business card just got a lot easier!</Text>
+        </Text>
       </View>
     );
   }
@@ -20,4 +24,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  baseText: {
+    fontFamily: 'Cochin',
+  },
+  titleText: {
+    fontSize: 15,
+    fontWeight: 'bold',
+    color: 'teal'
+  }
 });
