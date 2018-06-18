@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import { ScrollView, StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import { Tile, List, ListItem, Button } from 'react-native-elements';
+import QRCode from 'react-native-qrcode';
 import { me } from '../config/data';
 
 class Owner extends Component {
@@ -17,7 +18,7 @@ class Owner extends Component {
             title={`${this.props.name.first.toUpperCase()} ${this.props.name.last.toUpperCase()}`}
             caption={`${this.props.experience.jobTitle} at ${this.props.experience.employer}`}
             />
-
+            
             <Button
             title="Settings"
             buttonStyle={{ marginTop: 20 }}
@@ -57,6 +58,16 @@ class Owner extends Component {
                 hideChevron
             />
             </List>
+
+            <View style={styles.container2}>
+                <Text style={styles.titleText}>QR Code</Text>
+                <QRCode
+                value={me}
+                size={200}
+                bgColor='purple'
+                fgColor='white'
+                />
+            </View>
         </ScrollView>
         );
     }
@@ -66,36 +77,44 @@ Owner.defaultProps = { ...me };
 
 const styles = StyleSheet.create({
     container: {
-      flex: 1,
-      backgroundColor: '#36485f',
+        flex: 1,
+        backgroundColor: '#36485f',
+    },
+    container2: {
+        flex: 2,
+        backgroundColor: '#36485f',
+        paddingTop: 20,
+        paddingBottom: 20,
+        paddingLeft: 85,
+        paddingRight: 50
     },
     baseText: {
-      fontFamily: 'Cochin',
+        fontFamily: 'Cochin',
     },
     titleText: {
-      fontSize: 15,
-      fontWeight: 'bold',
-      color: 'teal'
+        fontSize: 19,
+        fontWeight: 'bold',
+        color: 'white'
     },
     textinput: {
-      alignSelf: 'stretch',
-      height: 40,
-      marginBottom: 30,
-      color: '#fff',
-      borderBottomColor: '#f8f8f8',
-      borderBottomWidth: 1
+        alignSelf: 'stretch',
+        height: 40,
+        marginBottom: 30,
+        color: '#fff',
+        borderBottomColor: '#f8f8f8',
+        borderBottomWidth: 1
     },
     button: {
-      alignSelf: 'stretch',
-      alignItems: 'center',
-      padding: 20,
-      backgroundColor: '#59cbbd',
-      marginTop: 30
-    },
-    btntext: {
-      color: 'white',
-      fontWeight: 'bold'
-    }
-  });
+        alignSelf: 'stretch',
+        alignItems: 'center',
+        padding: 20,
+        backgroundColor: 'white',
+        marginTop: 30
+      },
+      btntext: {
+        color: 'black',
+        fontWeight: 'bold'
+      }
+});
 
 export default Owner;

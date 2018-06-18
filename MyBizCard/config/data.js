@@ -86,8 +86,8 @@ export const me = {
       "gender": "female",
       "name": {
         "title": "mr",
-        "first": "jacob",
-        "last": "wilson"
+        "first": "Jacob",
+        "last": "Wilson"
       },
       "experience": {
         "jobTitle": "Software Engineer",
@@ -166,8 +166,8 @@ export const me = {
       "gender": "female",
       "name": {
         "title": "miss",
-        "first": "lilly",
-        "last": "fox"
+        "first": "Lilly",
+        "last": "Fox"
       },
       "experience": {
         "jobTitle": "Financial Analyst",
@@ -206,8 +206,8 @@ export const me = {
       "gender": "male",
       "name": {
         "title": "mr",
-        "first": "andreas",
-        "last": "madison"
+        "first": "Andreas",
+        "last": "Madison"
       },
       "experience": {
         "jobTitle": "Account Executive",
@@ -246,8 +246,8 @@ export const me = {
       "gender": "female",
       "name": {
         "title": "mrs",
-        "first": "cara",
-        "last": "taylor"
+        "first": "Cara",
+        "last": "Taylor"
       },
       "experience": {
         "jobTitle": "Sales Associate",
@@ -286,8 +286,8 @@ export const me = {
       "gender": "female",
       "name": {
         "title": "mrs",
-        "first": "denise",
-        "last": "jones"
+        "first": "Denise",
+        "last": "Jones"
       },
       "experience": {
         "jobTitle": "Financial Analyst",
@@ -366,8 +366,8 @@ export const me = {
       "gender": "female",
       "name": {
         "title": "mrs",
-        "first": "esther",
-        "last": "cold"
+        "first": "Esther",
+        "last": "Cold"
       },
       "experience": {
         "jobTitle": "Software Engineer",
@@ -406,8 +406,8 @@ export const me = {
       "gender": "male",
       "name": {
         "title": "mr",
-        "first": "cesar",
-        "last": "santiago"
+        "first": "Cesar",
+        "last": "Santiago"
       },
       "experience": {
         "jobTitle": "Software Engineer",
@@ -486,8 +486,8 @@ export const me = {
       "gender": "male",
       "name": {
         "title": "mr",
-        "first": "joshua",
-        "last": "wilson"
+        "first": "Joshua",
+        "last": "Wilson"
       },
       "experience": {
         "jobTitle": "Software Engineer",
@@ -526,8 +526,8 @@ export const me = {
       "gender": "female",
       "name": {
         "title": "ms",
-        "first": "alicia",
-        "last": "morgan"
+        "first": "Alicia",
+        "last": "Morgan"
       },
       "experience": {
         "jobTitle": "Software Engineer",
@@ -567,7 +567,7 @@ export const me = {
       "gender": "female",
       "name": {
         "title": "miss",
-        "first": "lily",
+        "first": "Lily",
         "last": "Ann"
       },
       "experience": {

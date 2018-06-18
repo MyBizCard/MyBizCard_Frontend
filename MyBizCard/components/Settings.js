@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
     titleText: {
       fontSize: 15,
       fontWeight: 'bold',
-      color: 'teal'
+      color: 'black'
     },
     textinput: {
       alignSelf: 'stretch',

@@ -24,7 +24,7 @@ class CardHolder extends Component {
                     key={user.login.username}
                     roundAvatar
                     avatar={{ uri: user.picture.thumbnail }}
-                    title={`${user.name.first.toUpperCase()} ${user.name.last.toUpperCase()}`}
+                    title={`${user.name.first} ${user.name.last}`}
                     subtitle={`${user.experience.jobTitle} at ${user.experience.employer}`}
                     onPress={() => this.onLearnMore(user)}
                     />
