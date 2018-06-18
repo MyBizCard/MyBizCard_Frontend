@@ -8,12 +8,6 @@ import store from './store'
 import renderer from 'react-test-renderer';
 
 it('renders without crashing', () => {
-  const rendered = renderer.create(
-    <Provider store={store}>
-      <Router history={history}>
-        <App />
-      </Router>
-    </Provider>
-  ).toJSON();
+  const rendered = renderer.create(<App />).toJSON();
   expect(rendered).toBeTruthy();
 });
