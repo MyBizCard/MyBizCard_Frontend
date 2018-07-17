@@ -20,7 +20,7 @@ class Owner extends Component {
             />
             
             <Button
-            title="Settings"
+            title="Settings Jenny"
             buttonStyle={{ marginTop: 20 }}
             onPress={this.handleSettingsPress}
             />

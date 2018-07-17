@@ -43,7 +43,8 @@ export const SettingsStack = createStackNavigator({
   Settings: {
     screen: Settings,
     navigationOptions: {
-      title: 'Settings',
+      title: 'Settings here',
+      //name on top of the screen page when tapped Settings on owner page
     },
   },
 });
